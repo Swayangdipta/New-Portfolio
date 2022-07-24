@@ -1,0 +1,1 @@
+ScrollReveal().reveal('.title',{delay: 1000});
