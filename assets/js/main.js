@@ -1,4 +1,4 @@
-ScrollReveal({reset: true});
+ScrollReveal({reset: false});
 ScrollReveal().reveal('.landing_title',{delay: 300,reset: false,distance: '200%',origin: 'bottom',duration: 1500,scale: 0.5});
 ScrollReveal().reveal('.projects_btn',{delay: 1600,scale: 0.5,reset: false});
 ScrollReveal().reveal('.scroll_down',{delay: 1800,scale: 0.5,reset: false});
