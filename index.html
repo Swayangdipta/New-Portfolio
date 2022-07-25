@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.js" integrity="sha512-judXDFLnOTJsUwd55lhbrX3uSoSQSOZR6vNrsll+4ViUFv+XOIr/xaIK96soMj6s5jVszd7I97a0H+WhgFwTEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -18,14 +21,14 @@
     <div class="landing_page">
         <div class="projects_btn"><a href="#projects">Projects</a></div>
         <div class="landing_title_container"><h1 class="landing_title">Swayangdipta Das</h1></div>
-        <img src="./assets/images/TopAlt.png" alt="" srcset="" class="landing_img">
-        <img src="./assets/images/Bottom.png" alt="" srcset="" class="landing_img landing_img_bottom">
+        <img src="./assets/images/Top.png" alt="" srcset="" class="landing_img">
+        <img src="./assets/images/Bottom.png" alt="" srcset="" class="landing_img_bottom">
         <div class="scroll_down_wrapper"><a href="#projects"><img src="./assets/images/down.png" alt="" class="scroll_down"></a></div>
     </div>
 
     <div class="blank_div"></div>
 
-    <div id="projects" class="projects">
+    <section id="projects" class="projects">
         <div class="section_title">
             <div class="decoration_line"></div>
             <h1 class="actual_title">Projects</h1>
@@ -50,7 +53,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </section>
 
     <div class="about" id="about">
         <div class="section_title">
@@ -66,10 +69,10 @@
                 <h2 class="about_right_title">Its Me</h2>
                 <p class="about_bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto similique, consectetur provident vero molestias magni laudantium accusantium labore! Repellendus enim officia vero explicabo earum ullam, officiis unde neque, similique doloribus iste incidunt id est porro. Saepe ad perferendis voluptatum sapiente alias harum quae, soluta illum officiis, eaque explicabo possimus eos!</p>
                 <div class="social">
-                    <i class="fa-brands fa-github social_icons"></i>
-                    <i class="fa-brands fa-linkedin social_icons"></i>
-                    <i class="fa-brands fa-twitter-square social_icons"></i>
-                    <i class="fa-brands fa-hashnode social_icons"></i>
+                    <a href="https://github.com/Swayangdipta"><i class="fa-brands fa-github social_icons"></i></a>
+                    <a href="https://www.linkedin.com/in/swayangdipta-das-9a7815159/"><i class="fa-brands fa-linkedin social_icons"></i></a>
+                    <a href="https://twitter.com/DasSwayangdipta"><i class="fa-brands fa-twitter-square social_icons"></i></a>
+                    <a href="https://swayangdipta.hashnode.dev/"><i class="fa-brands fa-hashnode social_icons"></i></a>
                 </div>
             </div>
         </div>
@@ -80,5 +83,6 @@
     </footer>
 
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/parallax.js"></script>
 </body>
 </html>
