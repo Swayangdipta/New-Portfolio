@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.js" integrity="sha512-judXDFLnOTJsUwd55lhbrX3uSoSQSOZR6vNrsll+4ViUFv+XOIr/xaIK96soMj6s5jVszd7I97a0H+WhgFwTEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -18,15 +19,32 @@
 </head>
 <body>
     
-    <div class="landing_page">
+    <!-- <div class="landing_page">
         <div class="projects_btn"><a href="#projects">Projects</a></div>
         <div class="landing_title_container"><h1 class="landing_title">Swayangdipta Das</h1></div>
         <img src="./assets/images/Top.png" alt="" srcset="" class="landing_img">
         <img src="./assets/images/Bottom.png" alt="" srcset="" class="landing_img_bottom">
         <div class="scroll_down_wrapper"><a href="#projects"><img src="./assets/images/down.png" alt="" class="scroll_down"></a></div>
-    </div>
+    </div> -->
 
-    <div class="blank_div"></div>
+    <div class="landing_page">
+        <div class="landing_title_container_v2">
+            <h3 class="say_welcome">Welcome</h3>
+            <h1 class="landing_title_v2">Swayangdipta</h1>
+            <h3 class="say_here">here</h3>
+        </div>
+
+        <div class="landing_small_intro">
+            <p class="landing_intro_text">I am currently an FullStack trainee.Please make sure to check my about section.</p>
+        </div>
+
+        <div class="landing_btns">
+            <a target="_blank" href="./assets/files/CV V2.pdf"><div class="explore_btn"><h2 class="explore_txt">Resume</h2><i class="fa-solid fa-file"></i></div></a>
+            <a href="#projects"><div class="explore_btn resume_btn"><h2 class="explore_txt">Explore</h2></i><i class="fa-solid fa-angle-right animate__animated animate__heartBeat animate__infinite"></i></div></a>          
+        </div>
+
+        <img src="./assets/images/fabrice-villard-Du41jIaI5Ww-unsplash.jpg" alt="" class="decoration_img1">
+    </div>
 
     <section id="projects" class="projects">
         <div class="section_title">
@@ -50,6 +68,12 @@
                 <a href="/pages/mern.html">
                     <img src="./assets/images/mern.avif" alt="" class="card_icon">
                     <div class="card_title">MERN</div>
+                </a>
+            </div>
+            <div class="project_card">
+                <a href="/pages/mern.html">
+                    <img src="./assets/images/hal-gatewood-tZc3vjPCk-Q-unsplash.jpg" alt="" class="card_icon">
+                    <div class="card_title">PORTFOLIO</div>
                 </a>
             </div>
         </div>
@@ -79,7 +103,7 @@
     </div>
 
     <footer>
-        
+        <p class="footer_info">Swayangdipta Das | No Copyright</p>
     </footer>
 
     <script src="./assets/js/main.js"></script>
