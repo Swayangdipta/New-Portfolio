@@ -64,14 +64,16 @@ body{
 }
 
 .say_welcome{
-    margin-bottom: -20px;
-    margin-top: 40px;
+    margin-bottom: -10px;
+    margin-top: 20px;
     margin-left: 5px;
+    color: #333;
 }
 
 .say_here{
-    margin-top: -20px;
+    margin-top: -10px;
     margin-left: 5px;
+    color: #333;
 }
 
 .landing_btns{
@@ -851,6 +853,10 @@ sub{
 
     .git_link,.live_link{
         height: 30px;
+    }
+
+    .project_info{
+        font-size: 18px;
     }
 }
 
